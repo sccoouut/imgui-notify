@@ -52,7 +52,7 @@ FrameContext* WaitForNextFrameResources();
 void ResizeSwapChain(HWND hWnd, int width, int height);
 LRESULT WINAPI WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
-#include "src/imgui_notify.h"
+#include <imgui_notify.h>
 #include "tahoma.h"
 
 void init()
